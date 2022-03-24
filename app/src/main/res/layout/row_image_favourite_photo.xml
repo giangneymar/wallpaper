@@ -3,33 +3,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/_10sdp">
+    android:layout_margin="@dimen/_3sdp">
 
-    <FrameLayout
+    <ImageView
+        android:id="@+id/img"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,9:16"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/img"
-            android:layout_width="@dimen/_108sdp"
-            android:layout_height="@dimen/_192sdp"
-            android:scaleType="fitXY"
-            android:src="@drawable/ic_launcher_background"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageButton
-            android:id="@+id/imgBtnDelete"
-            android:layout_width="@dimen/_20sdp"
-            android:layout_height="@dimen/_20sdp"
-            android:layout_gravity="bottom|center"
-            android:layout_marginBottom="@dimen/_20sdp"
-            android:background="#00000000"
-            android:scaleType="fitXY"
-            android:src="@drawable/favourite_photo_ic_delete" />
-
-    </FrameLayout>
+    <ImageButton
+        android:id="@+id/imgBtnDelete"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/favourite_photo_ic_delete"
+        app:layout_constraintBottom_toBottomOf="@id/img"
+        app:layout_constraintLeft_toLeftOf="@id/img"
+        app:layout_constraintRight_toRightOf="@id/img"
+        app:layout_constraintTop_toTopOf="@id/img"
+        app:layout_constraintVertical_bias="1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

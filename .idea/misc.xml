@@ -11,7 +11,8 @@
         <entry key="..\:/Users/Giang/Desktop/CV/Android/AppPhoto/app/src/main/res/layout/fragment_photo_detail.xml" value="0.18535681186283595" />
         <entry key="..\:/Users/Giang/Desktop/CV/Android/AppPhoto/app/src/main/res/layout/row_image.xml" value="0.25" />
         <entry key="..\:/Users/Giang/Desktop/CV/Android/AppPhoto/app/src/main/res/layout/row_image_2.xml" value="0.3009833262077811" />
-        <entry key="..\:/Users/Giang/Desktop/CV/Android/AppPhoto/app/src/main/res/layout/row_image_photo.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Giang/Desktop/CV/Android/AppPhoto/app/src/main/res/layout/row_image_favourite_photo.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/Giang/Desktop/CV/Android/AppPhoto/app/src/main/res/layout/row_image_photo.xml" value="0.33" />
       </map>
     </option>
   </component>

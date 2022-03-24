@@ -15,10 +15,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppPhoto">
         <activity
-            android:name=".View.Activity.PhotoDetailActivity"
+            android:name=".view.activity.PhotoDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".View.Activity.MainActivity"
+            android:name=".view.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

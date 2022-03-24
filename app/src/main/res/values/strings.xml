@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">App Photo</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="set_wallpaper">Đặt Hình Nền</string>
+    <string name="liked">Đã Thích Ảnh</string>
+    <string name="photo_exist">Ảnh Đã Tồn Tại Trong Mục Yêu Thích</string>
+    <string name="set_wallpaper_success">Đặt Hình Nền Thành Công</string>
+    <string name="set_wallpaper_failed">Đặt Hình Nền Thất Bại</string>
+    <string name="deleted_photo">Đã Xóa Ảnh</string>
+    <string name="photo">Ảnh</string>
+    <string name="favourite">Yêu Thích</string>
+    <string name="check_exit_app">Back 1 Lần Nữa Để Thoát App</string>
 </resources>
